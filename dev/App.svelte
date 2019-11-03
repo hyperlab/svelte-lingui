@@ -3,8 +3,9 @@
   import Text from "../src/Text.svelte";
 
   let name = "Jonatan";
-  let config = {
-    locale: "sv",
+  let locale = "en";
+  $: config = {
+    locale,
     catalogs: {
       en: {
         messages: {
@@ -21,8 +22,19 @@
   };
 </script>
 
+<label>
+  Language:
+  <select bind:value={locale}>
+    <option value="en">English</option>
+    <option value="sv">Svenska</option>
+  </select>
+</label>
+
 <Provider {config}>
   <h1>
-    <Text message={'Hello {name}'} props={{ name }} />
+    <Text message={'Hello world'} />
   </h1>
+  <p>
+    <Text message={'Hello {name}'} props={{ name }} />
+  </p>
 </Provider>
