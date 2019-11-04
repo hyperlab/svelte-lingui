@@ -1,11 +1,19 @@
 {
   "name": "svelte-i18n",
   "version": "1.0.0",
-  "description": "svelte-i18n",
+  "description": "Internationalization, localization and translation of Svelte and Sapper apps",
   "keywords": [
-    "svelte"
+		"svelte",
+		"sapper",
+		"lingui",
+		"liguijs",
+		"i18n",
+		"l10n",
+		"Internationalization",
+		"localization",
+		"translation"
   ],
-  "repository": "TODO",
+  "repository": "https://github.com/hyperlab/svelte-i18n",
   "license": "MIT",
   "files": [
     "src",
