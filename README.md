@@ -3,6 +3,12 @@
 This is a first stab at building a reusable module for internationalization,
 localization and translation of Svelte and Sapper apps.
 
+## Installation
+
+```sh
+yarn add --dev svelte-i18n # or npm i --save-dev svelte-i18n
+```
+
 ## Usage
 
 Wrap your app in a provider:
