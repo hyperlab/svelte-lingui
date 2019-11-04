@@ -1,3 +1,4 @@
+import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import replace from 'rollup-plugin-replace';
 import commonjs from "rollup-plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
@@ -36,6 +37,7 @@ export default {
         }
       ],
   plugins: [
+    peerDepsExternal(),
 		replace({
 			'process.env.NODE_ENV': JSON.stringify(
 				process.env.PRODUCTION ? 'production' : 'development'

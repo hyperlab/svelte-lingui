@@ -3,15 +3,15 @@
   "version": "1.0.0",
   "description": "Internationalization, localization and translation of Svelte and Sapper apps",
   "keywords": [
-		"svelte",
-		"sapper",
-		"lingui",
-		"liguijs",
-		"i18n",
-		"l10n",
-		"Internationalization",
-		"localization",
-		"translation"
+    "svelte",
+    "sapper",
+    "lingui",
+    "liguijs",
+    "i18n",
+    "l10n",
+    "Internationalization",
+    "localization",
+    "translation"
   ],
   "repository": "https://github.com/hyperlab/svelte-lingui",
   "license": "MIT",
@@ -38,10 +38,13 @@
     "rollup-plugin-commonjs": "10.1.0",
     "rollup-plugin-livereload": "1.0.1",
     "rollup-plugin-node-resolve": "5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-replace": "^2.2.0",
     "rollup-plugin-svelte": "5.1.0",
     "rollup-plugin-terser": "5.1.2",
     "sirv-cli": "0.4.5",
-    "svelte": "3.12.1"
-  }
-}
+    "svelte": "^3.12.1"
+  },
+  "peerDependencies": {
+    "svelte": "^3.12.1"
+  }}
