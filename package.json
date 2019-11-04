@@ -1,5 +1,5 @@
 {
-  "name": "svelte-i18n",
+  "name": "svelte-lingui",
   "version": "1.0.0",
   "description": "Internationalization, localization and translation of Svelte and Sapper apps",
   "keywords": [
@@ -13,7 +13,7 @@
 		"localization",
 		"translation"
   ],
-  "repository": "https://github.com/hyperlab/svelte-i18n",
+  "repository": "https://github.com/hyperlab/svelte-lingui",
   "license": "MIT",
   "files": [
     "src",

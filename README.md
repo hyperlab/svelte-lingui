@@ -1,4 +1,4 @@
-# Svelte i18n (LinguiJS)
+# svelte-lingui – i10n for Svelte
 
 This is a first stab at building a reusable module for internationalization,
 localization and translation of Svelte and Sapper apps.
@@ -6,7 +6,7 @@ localization and translation of Svelte and Sapper apps.
 ## Installation
 
 ```sh
-yarn add --dev svelte-i18n # or npm i --save-dev svelte-i18n
+yarn add --dev svelte-lingui # or npm i --save-dev svelte-lingui
 ```
 
 ## Usage
