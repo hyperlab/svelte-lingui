@@ -6,7 +6,7 @@ localization and translation of Svelte and Sapper apps.
 ## Installation
 
 ```sh
-yarn add --dev svelte-lingui # or npm i --save-dev svelte-lingui
+yarn add --dev svelte-lingui @lingui/core@next # or npm i --save-dev svelte-lingui @lingui/core@next
 ```
 
 ## Usage
