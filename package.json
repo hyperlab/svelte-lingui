@@ -1,6 +1,6 @@
 {
   "name": "svelte-lingui",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Internationalization, localization and translation of Svelte and Sapper apps",
   "keywords": [
     "svelte",
@@ -29,8 +29,7 @@
     "prepublishOnly": "npm run build",
     "start:dev": "sirv public --single --dev"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@lingui/core": "^3.0.0-7",
     "npm-run-all": "4.1.5",
