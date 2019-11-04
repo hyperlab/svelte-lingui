@@ -1,6 +1,6 @@
 {
   "name": "svelte-lingui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Internationalization, localization and translation of Svelte and Sapper apps",
   "keywords": [
     "svelte",
@@ -47,4 +47,5 @@
   },
   "peerDependencies": {
     "svelte": "^3.12.1"
-  }}
+  }
+}
